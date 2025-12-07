@@ -48,4 +48,5 @@ This build has been tested by our internal team and community members and verifi
 ## ❤️ Credits
 * **LineageOS Team**: For the amazing source code.
 * **The Veux Community**: For testing and feedback.
+* **Evolution X Team**: For providing the foundational device resources that this project is re-based upon.
 ---
