@@ -58,11 +58,11 @@ Follow these steps if you are coming from MIUI, HyperOS, or another custom ROM.
 ---
 
 ## 🔄 OTA Update Guide (Keep Root)
-Our ROM supports seamless OTA updates via **Settings > System > Updater**. If you are rooted with Magisk, follow these exact steps to update without losing root.
+Our ROM supports seamless OTA updates via **Settings > System > System Updates**. If you are rooted with Magisk, follow these exact steps to update without losing root.
 
 1.  **Download the Update**
-    * Go to **Settings** > **System** > **Updater**.
-    * Download and install the update.
+    * Go to **Settings** > **System** > **System Updates**.
+    * Click the refresh icon button in top right corner to download the new update.
 
 2.  **⛔ DO NOT REBOOT YET!**
     * When the installation finishes and the "Reboot" button appears in the Updater app, **STOP**. Do not tap it. Go to your home screen.
@@ -71,9 +71,26 @@ Our ROM supports seamless OTA updates via **Settings > System > Updater**. If yo
     * Open the **Magisk App**.
     * Tap **Install** (top card).
     * Select **Install to Inactive Slot (After OTA)**.
+    * Click **Let's Go**.
     * *Note: If this option is missing, restart the Magisk app.*
 
 4.  **Reboot**
-    * Once Magisk finishes patching, tap the **Reboot** button **inside the Magisk app**.
+    * Once Magisk finishes patching and says "All done", simply **Reboot** your device manually (using the Power Menu).
 
-Your phone will reboot into the updated OS with Root access preserved!
+---
+
+## ⚠️ Important: Updater App Behavior
+The LineageOS Updater app works in the background, but there are two specific quirks you should know to avoid confusion:
+
+### 1. Importing Local Updates (Do Not Minimize!)
+If you choose to update via a local ZIP file ("Local Update"):
+* When the "Importing local update" dialog appears, **you must stay on that screen**.
+* **Do not** minimize the app or switch to another app during the import phase (approx. 1 minute).
+* If you leave the screen, the import will fail. Wait for the "Install" button to appear before leaving.
+
+### 2. Disappearing "Reboot" Button
+Once the installation starts (progress bar appears), you *can* leave the screen and use your phone. However:
+* If you return to the Updater app **after** the installation has reached 100%, the screen might look empty (no "Reboot" button shown).
+* **Solution:** Don't panic. The update **is installed**.
+    * **For Online Updates:** Tap the Refresh icon again. It will detect the installed update and show the Reboot button.
+    * **For Local Updates:** Select the local file and click "Install" again. It will skip the installation (since it's done) and immediately show the Reboot button.
