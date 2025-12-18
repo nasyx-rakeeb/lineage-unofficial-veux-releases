@@ -1,5 +1,21 @@
 # 📝 Changelog
 
+## v2.0 - December Patch (2025-12-18)
+* **Status:** STABLE
+* **System:**
+    * Synced with latest LineageOS 23 source.
+    * **Security:** Merged **December 2025 Security Patch**.
+* **New Features (Plus Menu):**
+    * **EdgeLink:** New sidebar multitasking tool. Launch apps in floating/desktop windows from any screen. Fully customizable (size, position, transparency).
+    * **Duress PIN:** Added plausible deniability. Entering a specific decoy PIN unlocks the device into a hidden profile to protect your data.
+    * **Local ADB:** Enable ADB over localhost for on-device terminal use (Termux) without a PC.
+* **Quick Settings (QS):**
+    * **Private DNS Tile:** Switch DNS providers (Google, Cloudflare, AdGuard, etc.) instantly via a popup dialog.
+    * **Force 5G/NR:** Force modem to use 5G/NR only.
+    * **5G Toggle:** Quickly enable or disable 5G connectivity.
+* **Launcher:**
+    * Added "Force Stop" and "Uninstall" shortcuts to app icon long-press menu.
+
 ## v1.0 - Initial Official Release (2025-12-07)
 * **Status:** STABLE / Daily Driver
 * **Base:** Initial public release based on LineageOS 23 (Android 16).
@@ -10,37 +26,5 @@
     * **Native OTA Infrastructure:** Implemented fully working System Updater.
     * **Root Preservation:** Added support for Magisk "Install to Inactive Slot".
     * **SEPolicy:** Enforcing.
-
----
-
-### v0.9 - Release Candidate 1 (2025-12-04) [Internal]
-* **Fixes:**
-    * Fixed minor jitter in UI animations.
-    * Patched `vendor_boot` to support seamless updates.
-    * Fixed VoLTE icon not showing in status bar on some carriers.
-* **Changes:**
-    * Switched from Permissive to **Enforcing** SEPolicy.
-    * Removed leftover debug logging to improve performance.
-
-### v0.5 - Beta 2 (2025-11-28) [Internal]
-* **Fixes:**
-    * **Audio:** Fixed low volume issue in WhatsApp calls.
-    * **Fingerprint:** Improved unlock speed and reliability.
-* **Changes:**
-    * Synced latest LineageOS 23 sources.
-    * Updated blobs from HyperOS
-
-### v0.2 - Beta 1 (2025-11-20) [Internal]
-* **Fixes:**
-    * Fixed RIL (Calls/Data now working).
-    * Fixed WiFi 5GHz hotspot connection issues.
-    * Fixed random reboot when connecting Bluetooth headphones.
-* **Changes:**
-    * Initial successful boot to UI.
-
-### v0.1 - Alpha (2025-11-15) [Internal]
-* Initial bringup of LineageOS 23 (Android 16) for *veux*.
-* Kernel compile success.
-* **Known Issues:** RIL, Audio, Camera broken.
 
 ---
