@@ -1,19 +1,12 @@
 # 📝 Changelog
 
-## v2.1 - EdgeLink Hotfix (2025-12-19)
-* **Status:** STABLE
-* **EdgeLink:** * Fixed a critical UI bug where the master toggle switch was hidden/unclickable underneath the screen header.
-    * Improved layout rendering for better accessibility.
-
----
-
-## v2.0 - December Patch (2025-12-18)
+## v2.0 - December Patch & Feature Drop (2025-12-19)
 * **Status:** STABLE
 * **System:**
     * Synced with latest LineageOS 23 source.
     * **Security:** Merged **December 2025 Security Patch**.
 * **New Features (Plus Menu):**
-    * **EdgeLink:** New sidebar multitasking tool. Launch apps in floating/desktop windows from any screen. Fully customizable (size, position, transparency).
+    * **EdgeLink:** New sidebar multitasking tool. Launch apps in floating/desktop windows from any screen. (Includes layout & toggle fixes).
     * **Duress PIN:** Added plausible deniability. Entering a specific decoy PIN unlocks the device into a hidden profile to protect your data.
     * **Local ADB:** Enable ADB over localhost for on-device terminal use (Termux) without a PC.
 * **Quick Settings (QS):**
