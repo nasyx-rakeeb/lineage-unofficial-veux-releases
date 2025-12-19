@@ -1,5 +1,12 @@
 # 📝 Changelog
 
+## v2.1 - EdgeLink Hotfix (2025-12-19)
+* **Status:** STABLE
+* **EdgeLink:** * Fixed a critical UI bug where the master toggle switch was hidden/unclickable underneath the screen header.
+    * Improved layout rendering for better accessibility.
+
+---
+
 ## v2.0 - December Patch (2025-12-18)
 * **Status:** STABLE
 * **System:**
@@ -16,6 +23,8 @@
 * **Launcher:**
     * Added "Force Stop" and "Uninstall" shortcuts to app icon long-press menu.
 
+---
+
 ## v1.0 - Initial Official Release (2025-12-07)
 * **Status:** STABLE / Daily Driver
 * **Base:** Initial public release based on LineageOS 23 (Android 16).
@@ -26,5 +35,3 @@
     * **Native OTA Infrastructure:** Implemented fully working System Updater.
     * **Root Preservation:** Added support for Magisk "Install to Inactive Slot".
     * **SEPolicy:** Enforcing.
-
----
