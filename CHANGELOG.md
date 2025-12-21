@@ -1,6 +1,6 @@
 # 📝 Changelog
 
-## v2.0 - December Patch & Feature Drop (2025-12-19)
+## v2.0 - December Patch & Feature Drop (2025-12-21)
 * **Status:** STABLE
 * **System:**
     * Synced with latest LineageOS 23 source.
@@ -15,6 +15,8 @@
     * **5G Toggle:** Quickly enable or disable 5G connectivity.
 * **Launcher:**
     * Added "Force Stop" and "Uninstall" shortcuts to app icon long-press menu.
+* **Fix:** 
+    * Resolved potential bootloop issue.
 
 ---
 
